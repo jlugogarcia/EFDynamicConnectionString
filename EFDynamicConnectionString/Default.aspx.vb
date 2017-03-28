@@ -20,10 +20,12 @@
             If (success) Then
                 Response.Redirect("~/Connected_User.aspx", False)
             Else
+                lb_Message.Visible = True
                 lb_Message.Text = "Connection not succeded. :( "
             End If
 
         Catch ex As Exception
+            lb_Message.Visible = True
             lb_Message.Text = ex.Message
 
         End Try

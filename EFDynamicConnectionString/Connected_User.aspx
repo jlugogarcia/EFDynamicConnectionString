@@ -6,8 +6,11 @@
                 
             </p>  
             <p class="text-center">
-                <asp:Label ID="lbMessage" runat="server" Text="Congrats! You got connected" ForeColor="#0730CA" Visible="False"></asp:Label>
-            </p>                      
+                <asp:Label ID="lbMessage" runat="server" Text="Congrats! You got connected." ForeColor="#0730CA" Visible="False"></asp:Label>
+            </p>    
+             <p class="text-center">
+                <asp:Label ID="Label1" runat="server" Text="Label" ForeColor="#0730CA" Visible="False"></asp:Label>
+            </p>                  
         </div>      
               
     </div>  

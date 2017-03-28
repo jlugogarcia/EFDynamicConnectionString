@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1>EF Dynamic Connection String</h1>
-        <p class="lead">A basic template on setting dynamic connection string for Entity Framework data access projects.</p>
+        <p class="lead">A template on setting dynamic connection string for Entity Framework data access projects.</p>
         <p>
             <asp:Button ID="btn_TestConn" runat="server" Text="Connecting &raquo;" CssClass="btn btn-primary btn-lg" />
         </p>
