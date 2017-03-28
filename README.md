@@ -40,4 +40,4 @@ Next, it is presented the steps for getting the solution to work.
 
 17- Since it is not advisable making changes to Entity Framework auto-generated classes, we are going to create a new class that extends from DbContext and implements a constructor for passing the connection string as the parameter. For doing that it is built a new class with a code similar to the one shown under EFDynamicConnectionString/WideWorldImportersEntities.vb
 
-18-	Now you can use the EF dynamic connection as shown on the sample project at https://github.com/jlugogarcia/EFDynamicConnectionString
+18-	Now you can use the EF dynamic connection string solution as shown on the sample project at https://github.com/jlugogarcia/EFDynamicConnectionString
