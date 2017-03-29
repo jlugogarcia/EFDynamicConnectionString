@@ -28,7 +28,7 @@ Next, it is presented the steps for getting the solution to work.
 
 *At this point, you must be able to see at the designer, all the selected objects mapped, except the stored procedures (if selected any). This is fine, stored procedures won’t show up here but you must be able to see them by clicking on “Model Browser” tab.*
 
-*If you go back to the Solution Explorer tab and click over any empty space onto the created mapped EF designer, you will be able to see the corresponding properties.*
+*If you go back to the Solution Explorer tab and click on any empty space into the created mapped EF designer, you will be able to see the corresponding properties.*
 
 *Notice the name for Entity Container* is the same one that we used to save the connection settings name in Step 9.*
 
@@ -44,4 +44,4 @@ Next, it is presented the steps for getting the solution to work.
 
 18- Since it is not advisable making changes to Entity Framework auto-generated classes, create a new class that extends from DbContext and implements a constructor for passing the connection string as a parameter. For doing that, we are going to build a new class with a source code similar to the one at /EFDynamicConnectionString/WideWorldImportersEntities.vb
 
-19-	You are all set! Use the EF dynamic connection string as shown on the sample solution at https://github.com/jlugogarcia/EFDynamicConnectionString
+19-	You are all set! Use the EF dynamic connection string as shown on the sample solution at: https://github.com/jlugogarcia/EFDynamicConnectionString
