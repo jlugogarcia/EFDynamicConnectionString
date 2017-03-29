@@ -1,11 +1,9 @@
 # Entity Framework Dynamic Connection String
 A template on setting dynamic connection string for Entity Framework data access projects.
 
-### Instructions for getting started:
+### Instructions for getting the solution to work:
 
-Next, it is presented the steps for getting the solution to work.
-
-1- Restore a backup of WideWorldImporters-Full.bak on your local SQL Server machine. See: 
+1- Restore a backup of WideWorldImporters-Full.bak to your local SQL Server machine. See: 
  *https://github.com/Microsoft/sql-server-samples/releases/tag/wide-world-importers-v1.0*
 
 2-	Create a new ASP.NET web application project.
